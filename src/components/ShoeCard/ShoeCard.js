@@ -86,12 +86,15 @@ const Flag = styled.div`
   background-color: var(--bgColor);
   color: ${COLORS.white};
   border-radius: 2px;
+  font-size: ${14 / 16}rem;
+  font-weight: ${WEIGHTS.bold};
 `;
 
 const Link = styled.a`
   text-decoration: none;
   color: inherit;
-  flex: 1 1 30%;
+  min-width: 275px;
+  flex: 1;
 `;
 
 const Wrapper = styled.article`
